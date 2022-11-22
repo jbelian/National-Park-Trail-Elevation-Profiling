@@ -1,4 +1,4 @@
-## Creating elevation profiles of trails in Bryce Canyon National Park
+## Elevation profiles of trails in Bryce Canyon National Park
 
 For this 3D map, I interpolated shapefiles of trails into a digital elevation model of the area. I split the trails into each named segment, generated a stack profile for each, and then displayed each elevation profile as a separate chart, as shown in the picture below. I wrote [some code](https://github.com/jbelian/bryce/blob/main/find_min_max.ipynb) in Python that loops through each trail's attribute table and finds the minimum and maximum height of each trail.
 
